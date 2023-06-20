@@ -1,11 +1,11 @@
-About r-ngramrr
-===============
+About r-ngramrr-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ngramrr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/chainsawriot/ngramrr
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ngramrr-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple n-gram (contiguous sequences of n items from a given sequence of text) tokenizer to be used with the 'tm' package with no 'rJava'/'RWeka' dependency.
 
