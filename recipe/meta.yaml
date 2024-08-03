@@ -1,6 +1,5 @@
 {% set version = '0.2.0' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-ngramrr
@@ -13,8 +12,7 @@ source:
   sha256: 7e89e374c6aeea25c17f84c35d977c76fd569a7212a7def321e61d01c7251add
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
